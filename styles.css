@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@600;700&family=Sen:wght@400;700;800&display=swap");
+
+.kulim-park {
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.sen {
+    font-family: 'Sen', sans-serif;
+}
+
+a, hr {
+    color: inherit
+}
+
+blockquote, body, dd, dl, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, menu, ol, p, pre, ul {
+    margin: 0
+}
+
+fieldset, legend, menu, ol, ul {
+    padding: 0
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.mt-6 {
+    margin-top: 1.5rem
+}
+
+.mt-4 {
+    margin-top: 1rem
+}
+
+.mt-3 {
+    margin-top: .75rem
+}
+
+.inline {
+    display: inline
+}
+
+.flex {
+    display: flex
+}
+
+.h-36 {
+    height: 9rem
+}
+
+.min-h-screen {
+    min-height: 100vh
+}
+
+.w-36 {
+    width: 9rem
+}
+
+.flex-col {
+    flex-direction: column
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap
+}
+
+.justify-center {
+    justify-content: center
+}
+
+.space-x-5>:not([hidden])~:not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)))
+}
+
+.rounded-full {
+    border-radius: 9999px
+}
+
+.object-cover {
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.p-4 {
+    padding: 1rem
+}
+
+.pr-10 {
+    padding-right: 2.5rem
+}
+
+.pl-10 {
+    padding-left: 2.5rem
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem
+}
+
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem
+}
+
+.font-bold {
+    font-weight: 700
+}
+
+.uppercase {
+    text-transform: uppercase
+}
+
+.tracking-wide {
+    letter-spacing: .025em
+}
+
+.text-slate-500 {
+    --tw-text-opacity: 1;
+    color: rgb(100 116 139 / var(--tw-text-opacity))
+}
+
+.hover\:text-indigo-500:hover,
+.text-indigo-500 {
+    --tw-text-opacity: 1;
+    color: rgb(99 102 241 / var(--tw-text-opacity))
+}
+
+@media (min-width:768px) {
+    .md\:h-40 {
+        height: 10rem
+    }
+
+    .md\:w-40 {
+        width: 10rem
+    }
+
+    .md\:text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem
+    }
+}
